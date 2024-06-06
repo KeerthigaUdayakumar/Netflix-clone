@@ -1,0 +1,454 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu",
+    "sans-serif";
+}
+
+/* ------------BACKGROUND---------- */
+#main {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7889)
+    ),
+    url(../images/bg-img1.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* ----------NAVBAR---------- */
+
+#netflix-logo {
+  width: 148px;
+  height: 40px;
+  margin-left: 25px;
+}
+#selct {
+  width: auto;
+  padding-left: 36px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: relative;
+  transition: background-color 0.15s;
+}
+#lang-icon {
+  width: 20px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+#nav-shalf {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+/* #outline-border{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 2px;
+} */
+
+.form-select:valid:focus {
+  box-shadow: none;
+  /* border: 2px solid white; */
+}
+
+/*----------CONTENT------------*/
+
+#p1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 65px;
+}
+
+.form-control:valid:focus {
+  box-shadow: none;
+  border: 1px solid #b9b8b8;
+}
+
+#btn-getstarted {
+  font-size: 25px;
+  width: auto;
+}
+
+#label {
+  margin-top: -40px;
+  display: inline;
+  margin-left: 16px;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 0;
+}
+
+#label2 {
+  margin-top: -40px;
+  display: inline;
+  margin-left: 16px;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 0;
+}
+
+/* ---------------Page 2-------------*/
+
+#page2 {
+  background-color: black;
+  padding: 2% 7%;
+}
+
+#section2 {
+  width: 100%;
+  height: auto;
+}
+
+.selectdiv {
+  display: flex;
+}
+
+#cardlinks {
+  /* text-decoration: none; */
+  text-decoration-line: none;
+}
+#listcard {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-color {
+  background-image: linear-gradient(rgb(108, 31, 65) 0%, rgb(33, 13, 14) 100%);
+  cursor: pointer;
+  display: flex;
+}
+
+.bg-color:hover {
+  /* transform: scale3d(0.967,0.967,1);  */
+  transform: scale(1.09);
+  cursor: pointer;
+  transition: transform 0.5s;
+  background-image: linear-gradient(
+    rgb(170, 54, 104) 0%,
+    rgba(33, 13, 14, 1) 100%
+  );
+}
+
+.bg-moreinfo {
+  background-image: linear-gradient(
+    149deg,
+    rgb(69, 23, 43) 0.54%,
+    rgb(18, 12, 31) 75.04%
+  );
+  height: 350px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-rjoin {
+  background-image: linear-gradient(
+    149deg,
+    rgb(25, 34, 71) 0%,
+    rgb(33, 14, 23) 96.86%
+  );
+  padding: 25px 16px 100px;
+  position: relative;
+  /* width: auto; */
+  /* height: 20%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+#card-txt {
+ 
+  font-size: 32px;
+  font-weight: 700;
+  width: 190px;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-rjoin .img-rjoin {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.game-img {
+  position: absolute;
+  top: -14px;
+  left: 86px;
+  background-image: url(../images/games-sm.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110%;
+  background-position: right;
+  background-size: cover;
+}
+
+/* Accordian */
+
+.accordion-item:valid:focus {
+  box-shadow: none;
+}
+
+/* .accordion-button::after{
+    transition: all 0.5s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+} */
+
+/* Footer */
+
+#lang-icon2 {
+  width: 20px;
+  height: 35px;
+  position: absolute;
+  top: 16px;
+  left: 35px;
+}
+
+#selct2 {
+  width: auto;
+  padding-left: 36px;
+}
+
+footer a {
+  color: grey;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 70px;
+  flex-grow: 0;
+  width: auto;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+  width: 200px;
+}
+
+/* Owl carousel */
+.items {
+  height: 50%;
+}
+
+.items:hover {
+  transform: scale(1.05);
+  cursor: none;
+  transition: transform 0.5s;
+}
+.wrapper {
+  padding: 0 20px;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .owl-nav {
+  color: #b9b8b8;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 28%;
+  width: 25px;
+  height: 120px;
+  background-color: rgb(26, 26, 26) !important;
+  color: #b9b8b8 !important;
+  font-size: 20px !important;
+  transition: opacity 400ms ease-in-out !important;
+}
+.wrapper .owl-prev {
+  left: -33px;
+  /* border: 1px solid white !important; */
+  border-radius: 10px;
+}
+
+.wrapper .owl-next {
+  right: -33px;
+  /* border: 1px solid white !important; */
+  border-radius: 10px;
+  /* padding: 10% !important; */
+}
+
+.wrapper .owl-next:hover {
+  background-color: rgb(55, 53, 53) !important;
+}
+.wrapper .owl-prev:hover {
+  background-color: rgb(55, 53, 53) !important;
+}
+
+.wrapper img {
+  padding: 8px 22px;
+  border-radius: 35px;
+}
+
+/* .cimg::before {
+  content: attr(data-content);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: initial;
+  position: absolute;
+  left: 100px;
+} */
+
+.sequence {
+  -webkit-text-stroke: 2px rgb(238, 204, 204);
+  text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  display: inline-block;
+  height: 1em;
+  font-weight: 700;
+  color: rgb(65, 65, 65);
+  font-size: 7rem;
+  color: black;
+  position: absolute;
+  bottom: 30px;
+}
+
+@media all and (max-width: 930px) {
+  .selectdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .show {
+    padding-top: 10px;
+  }
+  #card-txt {
+    font-size: 20px;
+    font-weight: 500;
+    width: auto;
+    height: 100px;
+  }
+
+  .wrapper img {
+    padding: 4px 18px;
+    border-radius: 35px;
+  }
+
+  .game-img {
+    display: none;
+  }
+
+  /* .sequence {
+    -webkit-text-stroke: 2px rgb(238, 204, 204);
+    font-size: 5rem;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 150px;
+    right: 140px;
+  } */
+}
+
+@media all and (max-width: 1200px) {
+  #p1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 65px;
+  }
+  #btn-getstarted {
+    font-size: 25px;
+  }
+  #section1 {
+    height: 50vh;
+    width: 40%;
+    margin-top: 45px;
+    padding: 2px;
+  }
+  /* .sequence {
+    -webkit-text-stroke: 2px rgb(238, 204, 204);
+    font-size: 5rem;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 100px;
+    right: 140px;
+  } */
+}
+
+@media all and (max-width: 630px) {
+  #p1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  #selct {
+    width: 20px;
+  }
+
+  #card-txt {
+    font-size: 20px;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+  }
+
+  #nav-shalf {
+    margin-left: 20px;
+    margin-top: 6px;
+  }
+  /* .sequence {
+    -webkit-text-stroke: 2px rgb(238, 204, 204);
+    font-size: 5rem;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+  } */
+
+  .game-img {
+    position: absolute;
+    top: -14px;
+    left: 220px;
+  }
+}
+
+@media all and (max-width: 300px) {
+  #netflix-logo {
+    margin-left: 0px;
+  }
+
+  #card-txt {
+    font-size: 22px;
+    font-weight: 700;
+    width: 1px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sequence {
+    display: none;
+  }
+
+  .wrapper {
+    height: 20%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .wrapper img {
+    padding: 4px 18px;
+    border-radius: 35px;
+  }
+}

@@ -1,0 +1,68 @@
+/* ACCORDION */
+.accordion-button:not(.collapsed)::after {
+    /* Close icon svg format */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' fill='%23ffffff' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/%3E%3C/svg%3E") !important;
+    
+}
+
+.accordion-button::after {
+    /* Plus icon svg format */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' fill='%23ffffff' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E") !important;
+
+}
+.accordion-button{
+    transition: background-color 0.15s !important;
+}
+
+.accordion-button:hover{
+    background-color:rgba(65, 65, 65, 0.8) !important;
+}
+
+.accordion-button{
+    font-size:x-large !important;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: #2d2d2d !important;
+    --bs-accordion-btn-color: #fafafa !important;
+    --bs-accordion-active-bg: #2d2d2d !important;
+    --bs-accordion-active-color: #fafafa !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-btn-padding-y: 2rem !important;
+    --bs-accordion-btn-icon-width: 2rem !important;
+    --bs-accordion-border-color: #d92c2c2d !important;
+    --bs-accordion-btn-icon-transform:rotate(90deg) !important;
+    --bs-accordion-btn-icon-transition: transform .1s !important;
+
+    --bs-accordion-bg: #2d2d2d !important;
+    --bs-accordion-color: #fafafa !important;
+
+    width: 90% !important;
+
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border-bottom: none !important;
+}
+
+.accordion-body {
+    border-top: 1px solid  black !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    padding: 24px !important;
+}
+
+@media all and (max-width: 200px) {
+    .accordion{
+        width: 100% !important;
+
+    }
+
+    .accordion-button{
+        font-size:medium !important;
+    }
+}

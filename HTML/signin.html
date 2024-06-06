@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Netflix</title>
+    <link rel="icon" type="image/x-icon" href="../Asset/images/faviconlogo.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+    <!-- Custom bootstrap with sass -->
+    <link rel="stylesheet" href="../Asset/css/main.css">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" /> -->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../Asset/css/sigin.css">
+
+    <!-- Bootstrap icon -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- Fontawesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="" id="siginpage">
+        <header>
+            <div class="container px-4 pt-3">
+                <a class="navbar-brand" href="../HTML/index.html"><img src="../Asset/images/netflixfigma-logo.png" id="netflix-logo"></a>
+
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+
+                <div class="row justify-content-center pt-5 pb-5 m-0">
+                    <div class="card col-sm-12 col-md-8 col-lg-8 col-xl-5" id="card">
+                        <h1 class=" text-start  fs-2 fw-bold text-white mb-5 ">Sign In</h1>
+
+                        <div class="form-input mb-3" >
+                            <div id="outline-border">
+                                <input type="email" class="form-control bg-transparent p-3 text-white"
+                                id="floatingInput" required>
+                            <label for="floatinginp" class="text-secondary" id="label">Email or phone number</label>
+                            </div>
+                            <div id="emailerror"></div>
+
+                        </div>
+
+
+                        <div class="form-input mb-3">
+                            <div class="outline-border">
+                            <input type="password" class="form-control bg-transparent p-3 text-white"
+                                id="floatingpassword" required>
+                            <label for="floatinginp" class="text-secondary" id="label2">Password</label>
+                        </div>
+                            <div id="passworderror"></div>
+
+                        </div>
+
+
+
+                        <a type="button" class="btn btn-danger w-100">
+                            Sign In
+                        </a>
+
+                        <p class="text-white text-center my-3">OR</p>
+
+                        <a type="button" class="btn btn-dark w-100">
+                            Use a sign-in code
+                        </a>
+
+
+                        <div class="d-flex justify-content-md-center pt-2 pe-2 col-sm-12 justify-content-sm-center">
+
+                            <a href="#!"
+                                class="link-underline-secondary link-underline-opacity-0 link-underline-opacity-75-hover 
+                                text-white" id="forgot">Forgot
+                                password?</a>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label text-white" for="gridCheck">
+                                Remember me
+                            </label>
+                        </div>
+
+                        <div class="d-display">
+                            <p class=" mt-2 fs-6 text-secondary">New to Netflix?
+                                <a href="../html/login.html"
+                                    class="link-underline-secondary link-underline-opacity-0 link-underline-opacity-75-hover text-white fw-medium">Sign
+                                    up now.</a>
+                            </p>
+
+                            <p class="text-secondary "><small>This page is protected by Google reCAPTCHA to ensure
+                                    you're not a bot. <a href="#">Learn more.</a></small></p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </main>
+
+        <footer >
+            <div class="container pt-">
+                <p class="text-secondary">Questions? Call <a href="#">000-800-919-1694</a></p>
+
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Centre</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+
+                </ul>
+
+
+                <div id="outline-border">
+                    <div class="position-relative" id="selectbox">
+                        <img src="../Asset/images/lang-icon.svg" class="position-absolute" id="lang-icon"
+                            alt="lang-icon"></img>
+                        <select class="form- form-select bg-transparent text-white ms-2 " id="selct"
+                            aria-label="Large select example text-white">
+                            <option value="1" class="text-black" selected>English</option>
+                            <option value="2" class="text-black">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+
+
+
+
+            
+                
+            </div>
+            
+
+
+        
+
+        </footer>
+
+
+        <!-- End of the container -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- js file -->
+<script src="../Asset/js/sigin.js"></script>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

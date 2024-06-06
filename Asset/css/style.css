@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------CAROUSEL SLIDER IMAGES------- */
+
+/* -------CAROUSEL SLIDER IMAGES------- */
+
+.bg-img-1{
+    /* background-image: linear-gradient(110deg, rgba(28, 26, 26, 0.88),rgba(2, 2, 2, 0.906), 
+    rgba(26, 25, 25, 0.5)),url(../images/bg-img1.jpg); */
+    background-image: linear-gradient(120deg, rgba(9, 8, 8, 0.9), rgba(9, 8, 8, 0.8), rgba(6, 5, 5, 0.7)),url(../images/bg-img1.jpg);
+
+}
+.bg-img-2{
+    background-image: url(../images/bg-img2.webp);
+    background-position:top;
+   
+}
+.bg-img-3{
+    background-image: url(../images/bg-img3.webp);
+    background-position: center;
+}
+
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* --------------NAVBAR--------------- */
+
+
+#netflix-logo {
+    width: 148px;
+    height: 40px;
+}
+
+#navbar{
+    position: absolute;
+    top:0;
+    left: 110px;
+}
+
+nav {
+   
+    margin: 0;
+    padding: 0;
+}
+
+#lang-icon{
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    bottom: -4px;
+    margin-right: 2px;
+}
+
+
+#selct{
+    /* padding: 3px 36px; */
+}
+
+.form-select:valid:focus{
+    box-shadow: none;
+    border: 2px solid white;
+}
+
+#signin{
+    font-size: 16px;
+    width: auto;
+    padding: 3px 15px;
+
+}
+
+
+
+
+
+
+
+
+/* img{
+    background-color: linear-gradient(0deg, rgba(6, 5, 5, 0.7), rgba(6, 5, 5, 0.7));
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 100vh;
+} */
+
+/* img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+} */
+
+#main {
+
+    background-image: linear-gradient(0deg, rgba(6, 5, 5, 0.7), rgba(6, 5, 5, 0.7)), url(../images/bg-img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+#floatingInput {
+    background-color: rgba(117, 104, 104, 0.59);
+    width: 50%;
+}
+
+#frontpage {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(6, 5, 5, 0.808); */
+
+}
+
+
+
+#section1 {
+    height: 70vh;
+    width: 50%;
+    position: absolute;
+    top:110px;
+    left: 145px;
+}
+
+#p1 {
+    font-size :56px;
+     font-weight: 900;
+      line-height :65px;
+}
+
+.card {
+    /* background-image: linear-gradient(to right bottom, #122139, #232d5b, #100f1a, #17121e, #1f1322); */
+    background-image: linear-gradient(130deg,
+            hsl(232deg 42% 18%) 0%,
+            hsl(238deg 40% 17%) 10%,
+            hsl(242deg 40% 16%) 21%,
+            hsl(248deg 39% 15%) 32%,
+            hsl(251deg 37% 15%) 43%,
+            hsl(256deg 36% 14%) 54%,
+            hsl(263deg 35% 13%) 65%,
+            hsl(266deg 32% 13%) 77%,
+            hsl(270deg 32% 12%) 89%,
+            hsl(277deg 31% 11%) 100%);
+}
